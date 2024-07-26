@@ -13,6 +13,9 @@ services:
        # See https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/
         - GF_SECURITY_ADMIN_PASSWORD=sitespeedio
         - GF_SECURITY_ADMIN_USER=sitespeedio
+        - GF_SERVER_DOMAIN=sitespeed-dev.devsnc.com
+        - GF_SERVER_PROTOCOL=http
+        - GF_SERVER_ROOT_URL=https://sitespeed-dev.devsnc.com/grafana
         - GF_AUTH_ANONYMOUS_ENABLED=true
         - GF_USERS_ALLOW_SIGN_UP=false
         - GF_USERS_ALLOW_ORG_CREATE=false
